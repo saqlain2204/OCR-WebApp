@@ -73,9 +73,11 @@ Project Structure
 ├── README.md             # Project documentation
 ```
 
-app.py: The frontend of the web application using Streamlit.
-backend.py: Contains all the OCR model integration and text extraction logic.
-requirements.txt: Lists all the required Python packages and dependencies.
+**app.py**: The frontend of the web application using Streamlit.
+
+**backend.py**: Contains all the OCR model integration and text extraction logic.
+
+**requirements.txt**: Lists all the required Python packages and dependencies.
 
 Deployment Notes
 Important: The GOT OCR model **only works with GPU support**. As a result, the application may **not** function correctly on a Streamlit deployment that does not provide GPU support. For a working demonstration, please refer to the [Kaggle Notebook](https://www.kaggle.com/code/saqlain22/notebookeb74771db9).
