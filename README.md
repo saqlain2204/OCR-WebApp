@@ -32,7 +32,7 @@ To run this project locally or in a notebook environment, you will need:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/saqlain2204/ocr-webapp.git
+git clone https://github.com/yourusername/ocr-webapp.git
 cd ocr-webapp
 ```
 2. Set Up Python Environment
@@ -80,7 +80,7 @@ requirements.txt: Lists all the required Python packages and dependencies.
 Deployment Notes
 Important: The GOT OCR model **only works with GPU support**. As a result, the application may **not** function correctly on a Streamlit deployment that does not provide GPU support. For a working demonstration, please refer to the [Kaggle Notebook](https://www.kaggle.com/code/saqlain22/notebookeb74771db9).
 
-The Streamlit version of the app is accessible at the following URL, but it may not work fully due to the lack of GPU: [Live Demo] (Streamlit).
+The Streamlit version of the app is accessible at the following URL, but it may not work fully due to the lack of GPU: [Live Demo](https://ocr-webapp.streamlit.app/).
 
 To test the functionality with GPU, please use the Kaggle notebook link, which has been configured with GPU support.
 
