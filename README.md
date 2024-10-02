@@ -86,11 +86,12 @@ The Streamlit version of the app is accessible at the following URL, but it may 
 
 To test the functionality with GPU, please use the Kaggle notebook link, which has been configured with GPU support.
 
-Future Enhancements
+## Future Enhancements
 Implement fallback logic for non-GPU environments.
 Explore other OCR models that support CPU inference.
 Add support for additional languages and more complex search functionalities.
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Demo Video:
